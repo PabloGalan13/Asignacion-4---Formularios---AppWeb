@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 30%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .center-text {
+            text-align: center;
+            font-weight: normal;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="center-text">
+            <h1> Students Data Entry </h1>
+        </div>
+
+        <label for="studentName">Student Name</label>
+        <input type="text" name="studentName">
+        <br> <br>
+        <label for="email">Email</label>
+        <input type="email" name="email">
+        <br> <br>
+        <label for="gender"> Gender:</label>
+        <input type="radio" name="gender">
+        <label for="gender">Boy</label>
+        <input type="radio" name="gender">
+        <label for="gender">Girl</label>
+        <br> <br>
+        <label for="subjects">Subjects:</label>
+
+        <input type="checkbox" id="tamil" name="subjects" value="Tamil">
+        <label for="tamil">Tamil</label>
+
+        <input type="checkbox" id="telugu" name="subjects" value="Telugu">
+        <label for="telugu">Telugu</label>
+
+        <input type="checkbox" id="english" name="subjects" value="English">
+        <label for="english">English</label>
+
+        <input type="checkbox" id="physics" name="subjects" value="Physics">
+        <label for="physics">Physics</label>
+
+        <input type="checkbox" id="economics" name="subjects" value="Economics">
+        <label for="economics">Economics</label>
+        <br><br>
+        <label for="city">City/Town:</label>
+        <select id="city" name="city">
+            <option value="obregon">Ciudad Obregon</option>
+            <option value="guaymas">Guaymas</option>
+            <option value="hermosillo">Hermosillo</option>
+            <option value="navojoa">Navojoa</option>
+        </select>
+        <br><br>
+        <label for="comentarios">Comments:</label> <br>
+        <textarea name="comentarios" id="comentarios" ></textarea>
+    </div>
+</body>
+
+</html>
